@@ -55,7 +55,7 @@ $subject = "Website Contact Form: $name";
 $message = "$message";
 $headers = "From: $email";
 
-mail($to, $subject, $message, $headers);
+// mail($to, $subject, $message, $headers);
 
 // Die with a success message
 die("<span class='success'><h3>Successfully Sent!</h3> Your message is on its way, I will respond to you shortly.</span>");
